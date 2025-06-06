@@ -386,11 +386,15 @@ button:hover {
 }
 
 .service-item:hover {
-    background-color: rgba(250, 250, 250, 1);
+    background-color: transparent;
 }
 
 .service-item:hover p {
-    color: #4a4a4a;
+    color: #fff;
+}
+
+.service-item:hover h4 {
+    color: #fff;
 }
 
 .service-item .tags p , .dates p{
@@ -728,16 +732,14 @@ section.contact-me {
     .isotope-item {
         width: 94%;
         margin: 3%;
+        border-bottom: none;
+        text-align: center;
     }
     .left-image-post img {
         margin-bottom: 30px;
     }
     .right-image-post img {
         margin-top: 30px;
-    }
-    .isotope-item {
-        border-bottom: none;
-        text-align: center;
     }
     .isotope-toolbar {
         margin-bottom: 20px;
