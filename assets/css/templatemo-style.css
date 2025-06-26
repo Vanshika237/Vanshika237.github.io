@@ -509,7 +509,7 @@ figure.snip1321 span {
     font-size: 14px;
     font-style: italic;
     display: block;
-    color: #fff;
+    color: #232323;
 }
 figure.snip1321 i {
   position: relative!important;
@@ -524,7 +524,7 @@ figure.snip1321 i {
   color: #fff;
 }
 figure.snip1321:after {
-  background-color: transparent;
+  background-color: #ffffff;
   position: absolute;
   content: "";
   display: block;
@@ -728,14 +728,16 @@ section.contact-me {
     .isotope-item {
         width: 94%;
         margin: 3%;
-        border-bottom: none;
-        text-align: center;
     }
     .left-image-post img {
         margin-bottom: 30px;
     }
     .right-image-post img {
         margin-top: 30px;
+    }
+    .isotope-item {
+        border-bottom: none;
+        text-align: center;
     }
     .isotope-toolbar {
         margin-bottom: 20px;
